@@ -2,9 +2,9 @@
     "view_item_list": {
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "item_list_id": "{{valor definido doc a doc}}",
-        "item_list_name": "{{nome da vitrine}}",
-        "content_squad": "{{content_squad}}",
+        "item_list_id": null,
+        "item_list_name": null,
+        "content_squad": null,
         "experience_name": null,
         "coupon": null,
         "shipping_name": null,
@@ -42,8 +42,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,
                 "item_aquisition_type": "compra",
-                "item_list_id": "{{valor definido doc a doc}}",
-                "item_list_name": "{{nome da vitrine}}",
+                "item_list_id": null,
+                "item_list_name": null,
                 "is_a_kit": "true",
                 "number_of_affiliates": 0
             }
@@ -52,9 +52,9 @@
     "select_item": {
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "item_list_id": "{{valor definido doc a doc}}",
-        "item_list_name": "{{nome da vitrine}}",
-        "content_squad": "{{content_squad}}",
+        "item_list_id": null,
+        "item_list_name": null,
+        "content_squad": null,
         "experience_name": null,
         "coupon": null,
         "parent_benefit_name": null,
@@ -86,8 +86,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,
                 "item_aquisition_type": "compra",
-                "item_list_id": "{{valor definido doc a doc}}",
-                "item_list_name": "{{nome da vitrine}}",
+                "item_list_id": null,
+                "item_list_name": null,
                 "is_a_kit": "true"
             }
         ]
@@ -95,53 +95,53 @@
     "select_content":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_id":"{{valor definido no input do evento}}",
-        "content_type":"{{valor definido no input do evento}}",
-        "content_interaction_type":"{{valor definido no input do evento}}",
-        "content_name":"{{valor definido no input do evento}}",
-        "content_squad": "{{content_squad}}",
+        "content_id":null,
+        "content_type":null,
+        "content_interaction_type":null,
+        "content_name":null,
+        "content_squad": null,
         "is_control_group":"false"
     },
     "screen_view":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
         "screen_category": "{{screen_category}}",
-        "content_squad": "{{content_squad}}"
+        "content_squad": null
     },
     "search":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "search_term": "{{search_term}}",
-        "search_category": "{{search_category}}",
-        "content_squad": "{{content_squad}}"
+        "search_term": null,
+        "search_category": null,
+        "content_squad": null
     },
     "filter":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "search_term": "{{search_term}}",
-        "filter_by": "{{filter_by}}",
-        "content_squad": "{{content_squad}}"
+        "search_term": null,
+        "filter_by": null,
+        "content_squad": null
     },
     "view_search_results":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "search_term": "{{search_term}}",
-        "number_of_results": "{{number_of_results}}",
-        "content_squad": "{{content_squad}}"
+        "search_term": null,
+        "number_of_results": null,
+        "content_squad": null
     },
     "sort":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "search_term": "{{search_term}}",
-        "sort_by": "{{sort_by}}",
-        "content_squad": "{{content_squad}}"
+        "search_term": null,
+        "sort_by": null,
+        "content_squad": null
     },
     "add_to_cart":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "item_list_id": "{{valor definido doc a doc}}",
-        "item_list_name": "{{nome da vitrine}}",
-        "content_squad": "{{content_squad}}",
+        "item_list_id": null,
+        "item_list_name": null,
+        "content_squad": null,
         "experience_name": null,
         "coupon": null,
         "parent_benefit_name": null,
@@ -176,8 +176,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
                 }
@@ -186,7 +186,7 @@
     "remove_from_cart":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "currency": "BRL",
@@ -213,8 +213,8 @@
                 "price": 195.50,
                 "quantity": 1,
                 "item_affiliate_party": "1p",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "item_shipping_name": null,
                 "item_shipping_type": null,
                 "item_shipping_time": null,
@@ -230,10 +230,10 @@
     "view_promotion":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
-        "creative_name": "{{creative_name}}",
-        "creative_slot": "{{creative_slot}}",
-        "promotion_id": "{{promotion_id}}",
+        "content_squad": null,
+        "creative_name": null,
+        "creative_slot": null,
+        "promotion_id": null,
         "promotion_name": null,
         "location_id": null,
         "slot_size": null,
@@ -244,10 +244,10 @@
     "select_promotion":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
-        "creative_name": "{{creative_name}}",
-        "creative_slot": "{{creative_slot}}",
-        "promotion_id": "{{promotion_id}}",
+        "content_squad": null,
+        "creative_name": null,
+        "creative_slot": null,
+        "promotion_id": null,
         "promotion_name": null,
         "location_id": null,
         "slot_size": null,
@@ -258,7 +258,7 @@
     "view_item":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "currency": "BRL",
@@ -291,8 +291,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
                 }
@@ -301,7 +301,7 @@
     "view_cart":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "currency": "BRL",
@@ -335,8 +335,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
             }
@@ -345,7 +345,7 @@
     "begin_checkout":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "affiliate_party": "1p",
@@ -380,8 +380,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
             }
@@ -390,7 +390,7 @@
     "add_shipping_info":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "affiliate_party": "1p",
@@ -426,8 +426,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
             }
@@ -436,7 +436,7 @@
     "add_payment_info":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "affiliate_party": "1p",
@@ -473,8 +473,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
             }
@@ -483,7 +483,7 @@
     "purchase":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
+        "content_squad": null,
         "coupon": null,
         "parent_benefit_name": null,
         "affiliate_party": "1p",
@@ -523,8 +523,8 @@
                 "item_shipping_price": null,
                 "item_shipping_interaction_type": null,  
                 "item_aquisition_type": "compra",
-                "item_list_name": "{{item_list_name}}",
-                "item_list_id": "{{strategy}}_{{type}}_{{card}}",
+                "item_list_name": null,
+                "item_list_id": null,
                 "is_a_kit": "True",
                 "number_of_affiliates": 1
             }
@@ -533,22 +533,22 @@
     "secondary_search":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
-        "search_item": "{{search_item}}",
-        "search_squad": "{{search_squad}}",
-        "search_term": "{{search_term}}",
-        "search_category": "{{search_category}}"
+        "content_squad": null,
+        "search_item": null,
+        "search_squad": null,
+        "search_term": null,
+        "search_category": null
     },
     "login":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
-        "method": "{{method}}"
+        "content_squad": null,
+        "method": null
     },
     "signup":{
         "screen_name": "{{screen_name}}",
         "event_source": "tagify",
-        "content_squad": "{{content_squad}}",
-        "method": "{{method}}"
+        "content_squad": null,
+        "method": null
     }
 }
